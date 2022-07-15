@@ -1,5 +1,14 @@
-function Hello() {
-    return <h1>Hello World!</h1>;
-  }
+const navbar = (
+    <nav>
+        <h1>Roshan Rasoi</h1>
+        <ul>
+            <li>Menu</li>
+            <li>Orders</li>
+            <li>Contact us</li>
+        </ul>
+    </nav>
+)
 
-  ReactDOM.render(<div>  <Hello />  </div>, document.getElementById('mydiv'))
+console.log(navbar);
+
+ReactDOM.render(navbar, document.getElementById('mydiv'))
